@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CALCON3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+        <header id="header2">
+                <h1>LENGTH-CONVERTER</h1>
+        </header>
+    
+        <div class="tag">
+            <a href="index.html"><button>Home</button></a>
+            <a href="page2.html"><button>Back</button></a>
+        </div>
+    
+        <form class="container">
+        <div>
+            <input class="input" type="text" placeholder="Length" id="value4">
+        </div>
+
+        <div>
+            <select id="operator3">
+                <option value="kil">kilometre</option>
+                <option value="met">Metre</option>
+                <option value="cen">Centimetre</option>
+                <option value="mil">Millimetre</option>
+                <option value="mic">Micrometre</option>
+                <option value="nan">Nanometre</option>
+                <option value="mile">Mile</option>
+                <option value="yar">Yard</option>
+                <option value="foot">Foot</option>
+                <option value="inc">Inch</option>
+                <option value="naum">Nautical Mile</option>
+            </select>
+        </div>
+
+    <select class="convertto" id="operator4">
+        <option value="kil">To kilometre</option>
+        <option value="met">To Metre</option>
+        <option value="cen">To Centimetre</option>
+        <option value="mil">To Millimetre</option>
+        <option value="mic">To Micrometre</option>
+        <option value="nan">To Nanometre</option>
+        <option value="mile">To Mile</option>
+        <option value="yar">To Yard</option>
+        <option value="foot">To Foot</option>
+        <option value="inc">To Inch</option>
+        <option value="naum">To Nautical Mile</option>
+    </select>
+
+    <div>
+        <button class="but" type="button" onclick="conv()">Convert</button>
+    </div>
+
+     <div id="result3"> 
+            <input class="input2" type="text" placeholder="Answer"> 
+        </div>  
+    </form>
+
+</body>
+    <script src="main.js"></script>
+</html>
