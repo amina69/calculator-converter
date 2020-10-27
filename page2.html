@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CALCON2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header id="header2">
+            <h1>AREA-CONVERTER</h1>
+    </header>
+
+    <div class="tag">
+        <a href="index.html"><button>Home</button></a>
+        <a href="page3.html"><button>Length-Converter</button></a>
+    </div>
+
+    <form class="container">
+        <div>
+            <input class="input" type="text" placeholder="Area" id="value3">
+        </div>
+
+        <div>
+            <select id="operator1">
+                    <option value="sqm">Square Metre</option>
+                    <option value="hec">Hectare</option>
+                    <option value="acr">Acre</option>
+                    <option value="sqi">Square Inch</option>
+                    <option value="sqf">Square Foot</option>
+                    <option value="sqy">Square Yard</option>
+                    <option value="sqmi">Square Mile</option>
+                    <option value="sqk">Square Kilometre</option>
+                    
+            </select>
+        </div>
+
+        <div>
+            <select class="convertto" id="operator2">
+                <option value="sqm">To Square Metre</option>
+                <option value="hec">To Hectare</option>
+                <option value="acr">To Acre</option>
+                <option value="sqi">To Square Inch</option>
+                <option value="sqf">To Square Foot</option>
+                <option value="sqy">To Square Yard</option>
+                <option value="sqmi">To Square Mile</option>
+                <option value="sqk">To Square Kilometre</option>
+            </select>
+        </div>
+        
+        <div>
+            <button class="but" type="button" onclick="con()">Convert</button>
+        </div>
+      
+        <div id="result2"> 
+            <input class="input2" type="text" placeholder="Answer"> 
+        </div>
+
+
+    </form>
+
+</body>
+    <script src="main.js"></script>
+</html>
